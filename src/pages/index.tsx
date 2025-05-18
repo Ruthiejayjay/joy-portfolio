@@ -3,6 +3,7 @@ import { Radley } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero/Index";
 import About from "@/components/About/Index";
+import EducationalBackground from "@/components/EducationBackground/Index";
 
 const radleyFont = Radley({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <About />
+          <EducationalBackground />
         </main>
       </div>
     </>
