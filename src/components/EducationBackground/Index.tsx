@@ -1,16 +1,5 @@
 import clsx from "clsx";
 import styles from "./styles.module.scss";
-import Image from "next/image";
-
-import SchoolImg from "@/assets/images/school-img.png";
-
-// const degrees = [
-//   {
-//     icon: SchoolImg,
-//     school: "Benson Idahosa University",
-
-//   },
-// ];
 
 export default function EducationalBackground() {
   return (
