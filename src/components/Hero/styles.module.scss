@@ -1,7 +1,48 @@
 @import "@/assets/scss/variables";
 
 .hero {
-   position: relative;
+  position: relative;
+  display: flex;
+  background-color: #f4f1e8;
+  padding: 200px 0;
+
+  .container {
     display: flex;
-    background-color: #f4f1e8;
+    justify-content: center;
+    align-items: center;
+
+    .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+
+      .title {
+        font-size: 6rem;
+
+        span {
+          color: #9b4819;
+        }
+      }
+
+      .desc {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        width: 60%;
+      }
+
+      .hireBtn {
+        color: #9b4819;
+        background: none;
+        border: 0;
+        cursor: pointer;
+
+        &:hover {
+          background: #9b4819;
+          color: white;
+        }
+      }
+    }
+  }
 }
