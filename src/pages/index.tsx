@@ -1,16 +1,11 @@
 import Head from "next/head";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Radley } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero/Index";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const radleyFont = Radley({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export default function Home() {
@@ -23,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
+        className={`${styles.page} ${radleyFont.className}`}
       >
         <main className={styles.main}>
           <Hero />
