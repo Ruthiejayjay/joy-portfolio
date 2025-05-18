@@ -51,6 +51,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            .icon {
+              width: 40px;
+              stroke: #f4f1e8;
+            }
           }
         }
 
@@ -67,6 +72,7 @@
           display: flex;
           flex-direction: column;
           text-align: center;
+          font-size: 0.85rem;
         }
       }
     }
