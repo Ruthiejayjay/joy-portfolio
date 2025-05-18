@@ -70,7 +70,7 @@ export default function WorkHistory() {
         <div className={styles.heading}>
           <h4 className={styles.title}>Work History</h4>
           <p className={clsx(styles.desc, carlitoFont.className)}>
-            Here's my work history
+            Here&rsquo;s my work history
           </p>
         </div>
         <div className={styles.gridSection}>
