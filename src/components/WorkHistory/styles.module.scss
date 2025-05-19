@@ -61,16 +61,20 @@
           pointer-events: auto;
         }
         .imgBox {
-          width: 400px;
-          height: 460px;
+          width: 440px;
+          height: 500px;
 
           @include media-breakpoint-down(lg) {
             width: 100%;
-            height: auto;
+            height: 450px;
           }
 
-          @include media-breakpoint-down(sm) {
-            height: 400px;
+          @include media-breakpoint-down(md) {
+            height: 350px;
+          }
+
+          @media (max-width: 350px) {
+            height: auto;
           }
 
           .img {

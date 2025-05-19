@@ -4,7 +4,7 @@ import { FaEnvelope, FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className={styles.footerSection}>
+    <div id="footer" className={styles.footerSection}>
       <div className={clsx("container", styles.container)}>
         <h3>
           Reach out if you want to work together to create impactful projects
