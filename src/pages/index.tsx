@@ -6,6 +6,7 @@ import About from "@/components/About/Index";
 import EducationalBackground from "@/components/EducationBackground/Index";
 import SkillsSection from "@/components/Skills/Index";
 import WorkHistory from "@/components/WorkHistory/Index";
+import PublicationsSection from "@/components/Publication/Index";
 
 const radleyFont = Radley({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function Home() {
           <EducationalBackground />
           <SkillsSection />
           <WorkHistory />
+          <PublicationsSection />
         </main>
       </div>
     </>
