@@ -1,0 +1,58 @@
+@import "@/assets/scss/variables";
+
+.skillsSection {
+  position: relative;
+  background-color: #9b4819;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 40px;
+
+    .heading {
+      position: relative;
+
+      .title {
+        font-size: 3rem;
+        font-weight: 700;
+        font-style: oblique;
+        text-align: center;
+        color: #f4f1e8;
+        line-height: 1.5;
+      }
+    }
+
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+
+    .skillPill {
+      background-color: #f4f1e8;
+      color: #9b4819;
+      padding: 15px 20px;
+      border-radius: 30px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      cursor: default;
+
+      &:hover {
+        background-color: #fff;
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
