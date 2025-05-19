@@ -17,23 +17,17 @@ export default function PublicationsSection() {
     <div className={styles.publicationsSection}>
       <div className={clsx("container", styles.container)}>
         <h4 className={styles.title}>
-          {/* <svg
+          <svg
+            fill="#9b4819"
+            viewBox="0 0 32 32"
+            width="20"
+            height="20"
             xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-            width="24"
-            height="24"
-            style={{ verticalAlign: "middle", marginRight: "8px" }}
+            style={{ marginRight: "0.5rem", verticalAlign: "middle" }}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M15.75 3.75a7.5 7.5 0 01-7.5 7.5l-3 3 3.75.75.75 3.75 3-3a7.5 7.5 0 017.5-7.5z"
-            />
-          </svg> */}
-          
+            <title>quill-ink</title>
+            <path d="M31.009 0.878c-5.937 0.218-10.752 1.502-14.433 3.482l-1.838 3.073-0.31-1.752c-0.657 0.462-1.266 0.949-1.827 1.46l-0.917 2.813-0.315-1.572c-2.724 3.049-3.942 6.736-3.635 10.504h-4.602v3.063h2.519l-2.703 2.373-1.389 5.303 0.907 0.99h11.058l0.907-0.99-1.389-5.303-2.558-2.373h2.206v-3.063h-4.055c1.596-0.827 3.146-1.971 4.68-3.293l-1.862 0.097 0.017-0.019 3.343-1.423c2.923-2.722 5.828-5.925 8.936-8.625l-1.529-0.324 3.535-1.317c1.673-1.276 3.413-2.358 5.254-3.105z"></path>
+          </svg>
           Published Poems
         </h4>
 
