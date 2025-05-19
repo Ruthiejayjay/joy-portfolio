@@ -4,7 +4,10 @@ import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero/Index";
 import About from "@/components/About/Index";
 import EducationalBackground from "@/components/EducationBackground/Index";
+import SkillsSection from "@/components/Skills/Index";
 import WorkHistory from "@/components/WorkHistory/Index";
+import PublicationsSection from "@/components/Publication/Index";
+import Footer from "@/components/Footer/Index";
 
 const radleyFont = Radley({
   subsets: ["latin"],
@@ -25,7 +28,10 @@ export default function Home() {
           <Hero />
           <About />
           <EducationalBackground />
+          <SkillsSection />
           <WorkHistory />
+          <PublicationsSection />
+          <Footer />
         </main>
       </div>
     </>

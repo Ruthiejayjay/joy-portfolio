@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import styles from "./styles.module.scss";
 import { Carlito } from "next/font/google";
+import Link from "next/link";
 
 const carlitoFont = Carlito({
   subsets: ["latin"],
@@ -16,11 +17,13 @@ export default function Hero() {
             Hello,<span> I am Joy!</span>
           </h2>
           <p className={clsx(styles.desc, carlitoFont.className)}>
-            I believe brevity is key. My print and digital designs are all about
-            minimalism and elegance.
+            I bring clarity, calm, and precision to every interaction — whether
+            in the skies, behind a screen, or inside a spreadsheet. With a
+            service-first mindset and a growing edge in data, I’m your go-to for
+            smooth support and smart solutions.
           </p>
 
-          <button className={styles.hireBtn}>Hire me</button>
+          <Link href="/#footer" className={styles.hireBtn}>Hire me</Link>
         </div>
       </div>
     </div>

@@ -29,6 +29,8 @@
 
       .title {
         font-size: 3rem;
+        font-weight: 700;
+        font-style: oblique;
         color: #9b4819;
         line-height: 1.5;
         margin-bottom: 30px;
@@ -52,6 +54,11 @@
       .imageBox {
         width: 400px;
         height: 450px;
+
+        @include media-breakpoint-down(sm) {
+          width: 100%;
+          height: auto;
+        }
 
         .image {
           width: 100%;

@@ -4,8 +4,9 @@ import Image from "next/image";
 import { Carlito } from "next/font/google";
 
 import CabinCrewImg from "@/assets/images/cabin-crew.jpeg";
-import CustomerServiceRepImg from "@/assets/images/customer-service-rep.jpeg";
+import CustomerServiceRepImg from "@/assets/images/customer-service.jpeg";
 import EnglishTeacherImg from "@/assets/images/english-teacher.jpeg";
+import NewsReporterImg from "@/assets/images/news-reporter.jpeg";
 
 const histories = [
   {
@@ -44,7 +45,7 @@ const histories = [
     ],
   },
   {
-    src: EnglishTeacherImg,
+    src: NewsReporterImg,
     alt: "news-reporter-img",
     title: "News Reporter",
     location: "Nigerian Television Authority, Yenagoa",
