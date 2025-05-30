@@ -4,13 +4,17 @@
   position: relative;
   background-color: #f4f1e8;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 100px 40px;
 
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 100px 40px;
+
+    @include media-breakpoint-down(sm) {
+      padding: 50px 20px;
+    }
 
     .title {
       font-size: 3rem;
@@ -32,6 +36,10 @@
       position: relative;
       overflow: hidden;
       border-radius: 20px;
+
+      @include media-breakpoint-down(sm) {
+        height: 600px;
+      }
 
       video {
         width: 100%;
