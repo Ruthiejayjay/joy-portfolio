@@ -3,6 +3,7 @@ import { Radley } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero/Index";
 import About from "@/components/About/Index";
+import Pitch from "@/components/Pitch/Index";
 import EducationalBackground from "@/components/EducationBackground/Index";
 import SkillsSection from "@/components/Skills/Index";
 import WorkHistory from "@/components/WorkHistory/Index";
@@ -27,6 +28,7 @@ export default function Home() {
         <main className={styles.main}>
           <Hero />
           <About />
+          <Pitch />
           <EducationalBackground />
           <SkillsSection />
           <WorkHistory />

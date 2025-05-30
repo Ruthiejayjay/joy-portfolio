@@ -1,0 +1,43 @@
+@import "@/assets/scss/variables";
+
+.pitchSection {
+  position: relative;
+  background-color: #f4f1e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 100px 40px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+      font-size: 3rem;
+      font-weight: 700;
+      font-style: oblique;
+      color: #9b4819;
+      line-height: 1.5;
+      margin-bottom: 30px;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+      }
+    }
+
+    .videoWrapper {
+      width: 100%;
+      max-width: 800px;
+      height: 850px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
